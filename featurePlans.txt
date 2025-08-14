@@ -1,0 +1,10 @@
+Feature List Plan
+
+- Login and Authentication
+    HTTPS request to server likely option
+
+- Boardgame search.
+    Use API request handeling in search. Either that or local database copy. Memory heavy i feel...
+    
+- User colection View
+    Breakdown Add to collection button to boardgame list
