@@ -1,13 +1,13 @@
-## Game Stack - Boardgame Application
+# Game Stack - Boardgame Application
 
-# Requirments/Goals
+## Requirments/Goals
 
 Web Applicaiton to do the following
-    - store user boardgame collections and store in database along with Key game data
-    - utilise Boardgame Geek API (may include second API boardgame atlas API) to display key boardgame stats (rating, playtime, players)
-    - users to search boardgame lists and favorate games. Storing this data in a database
-    - Current top rated Boardgames from BGG
-    - boardgame wishlist from search with price and links to buy
+    -- store user boardgame collections and store in database along with Key game data
+    -- utilise Boardgame Geek API (may include second API boardgame atlas API) to display key boardgame stats (rating, playtime, players)
+    -- users to search boardgame lists and favorate games. Storing this data in a database
+    -- Current top rated Boardgames from BGG
+    -- boardgame wishlist from search with price and links to buy
 
 Inital User Stories
 
