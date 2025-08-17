@@ -38,3 +38,4 @@ As a user, I want to login to the applciation, so that i can view my unique boar
     On failed login, error is displayed
     User remains logged in until session expary or logout
     Logout option visable to user on all pages
+
