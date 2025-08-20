@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/En-regalia/Game_Stack/issues"
   },
-  "homepage": "https://github.com/En-regalia/Game_Stack#readme"
+  "homepage": "https://github.com/En-regalia/Game_Stack#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
