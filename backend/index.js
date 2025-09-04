@@ -15,6 +15,8 @@ app.listen(PORT,() => {
     console.log(`Server running listening on port ${PORT}`); // Start up server message. Port defined in .env file in development. 
 });
 
+
+// Search function using the external API "https://boardgameprices.co.uk/api/plugin"
 app.get(searchRoute, async (req, res) => {
     const searchTerm = req.query.s || "Scythe" // Setting the search query within the fuction to /search?s=search. Search URL (searchRoute) currenlty defined in .env. Default value defined as "Scythe"
     const response = await axios.get('https://boardgameprices.co.uk/api/search',{
