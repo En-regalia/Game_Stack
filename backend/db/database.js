@@ -24,20 +24,20 @@ db.serialize(() => {
         name TEXT,
         yearpublished INTEGER,
         rank INTEGER,
-        Bayesaverage INTEGER,
-        Average INTEGER,
+        bayesaverage INTEGER,
+        average INTEGER,
         usersrated INTEGER,
-        is_expansion INTEGER,
+        is_expansion INTEGER DEFAULT 0
 
         )`);
 
     db.run(`
         CREATE TABLE IF NOT EXISTS users_collection (
-        user_id INTEGER NOT NULL
-        game_id INTEGER NOT NULL
-        PRIMARY KEY (user_id, game_id)
-        FOREIGN KEY (user id) REFERENCES users(user_id)
-        FOREIGN KEY (game_id) REFERENCES games(id)
+        user_id INTEGER NOT NULL,
+        game_id INTEGER NOT NULL,
+        PRIMARY KEY (user_id, game_id),
+        FOREIGN KEY (user_id) REFERENCES users(user_id),
+        FOREIGN KEY (game_id) REFERENCES games(game_id)
         )
     `);
 });
